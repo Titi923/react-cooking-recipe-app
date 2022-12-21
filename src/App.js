@@ -15,6 +15,8 @@ function App() {
       <h1>Cooking recipe app</h1>
       <BrowserRouter>
 
+        {/* TODO: Make a navbar component first */}
+
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/create" element={<Create />}></Route>
