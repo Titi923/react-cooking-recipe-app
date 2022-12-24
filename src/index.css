@@ -20,7 +20,7 @@ h1 {
 }
 input, textarea {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #e4e4e4;
   box-sizing: border-box;
   color: #333;
