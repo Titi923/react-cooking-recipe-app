@@ -13,7 +13,7 @@ const themeReducer = (state, action) => {
 
 export function ThemeProvider({ children }) {
   const [state, dispatch] = useReducer(themeReducer, {
-    color: '#f8ae00', 
+    color: 'blue', 
   });
 
   const changeColor = (color) => {
