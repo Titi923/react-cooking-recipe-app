@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import './RecipeList.css';
 
 export default function RecipeList({ propData }) {
+
+  if (propData.length === 0) {
+    return ( <div className='error'>No recipes to load...</div> )
+  }
+  
   return (
     <div className="recipe-list">
       {propData.map((recipe) => (

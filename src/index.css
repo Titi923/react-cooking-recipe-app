@@ -38,3 +38,6 @@ input, textarea {
   text-align: center;
   margin: 50px auto;
 }
+.error {
+  color: red;
+}
