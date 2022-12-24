@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // page components
 import Navbar from "./components/Navbar"
@@ -21,7 +21,6 @@ function App() {
           <Route path="/search" element={<Search />}></Route>
           <Route path="/recipes/:id" element={<Recipe />}></Route>
         </Routes>
-
       </BrowserRouter>
     </div>
   );
