@@ -22,7 +22,12 @@ export default function Create() {
     postData({ title, ingredients, method, cookingTime: cookingTime + ' minutes' })
   }
 
-  
+  // redirect the use when we get data response
+  useEffect(() => {
+    if (data) {
+      navigate('/')
+    }
+  }, [data])
 
   const handleAdd = (e) => {
     e.preventDefault();
