@@ -10,7 +10,7 @@ export default function Home() {
     <div className="home">
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
-      {data.map( (recipe) => (
+      {data && data.map( (recipe) => (
         <div key={recipe.id}>
           <h2>{recipe.title}</h2>
         </div>
