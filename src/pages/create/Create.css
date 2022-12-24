@@ -1,6 +1,6 @@
 .create {
   color: #555;
-  max-width: 500px;
+  max-width: 550px;
   margin: 50px auto;
 }
 
@@ -20,11 +20,20 @@
   font-size: 1.25em;
   font-weight: bold;
   color: #fff;
-  padding: 15px 20px;
+  padding: 10 px 15px;
   border: 0;
   border-radius: 10px;
   background: #ffd000;
   cursor: pointer;
   text-decoration: none;
-  margin: 20px auto;
+  margin: 40px auto 20px auto;
+}
+
+.ingredients {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients button {
+  margin: 0 0 0 10px;
 }
