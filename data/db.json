@@ -2,51 +2,68 @@
   "recipes": [
     {
       "id": "1",
-      "title": "Veggie Pizza",
+      "title": "Veggie Chilli",
       "ingredients": [
-        "1 Base",
-        "Tomata pasata",
-        "1 Green pepper",
-        "100g Mushrooms"
+        "400g pack oven-roasted vegetables",
+        "1 can kidney beans in chilli sauce",
+        "1 can chopped tomatoes",
+        "1 ready-to-eat mixed grain pouch"
       ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
-      "cookingTime": "35 minutes"
+      "method": "1. Heat oven to 200C/180C fan/ gas 6. Cook the vegetables in a casserole dish for 15 mins. Tip in the beans and tomatoes, season, and cook for another 10-15 mins until piping hot. Heat the pouch in the microwave on High for 1 min and serve with the chilli.",
+      "cookingTime": "30 minutes"
     },
     {
       "id": "2",
-      "title": "Greek Salad",
+      "title": "Easy Chicken Curry",
       "ingredients": [
-        "1 Onion",
-        "1 Block of Feta",
-        "Olives",
-        "Tomatoes",
-        "Olive Oil"
+        "2 tbsp sunflower oil",
+        "1 onion, thinly sliced",
+        "2 garlic cloves crushed",
+        "thumb-sized piece of ginger, grated",
+        "6 chicken thighs boneless and skinless",
+        "3 tbsp medium spice paste (tikka works well)",
+        "400g can chopped tomatoes",
+        "100g Greek yogurt",
+        "1 small bunch of coriander, leaves chopped",
+        "50g ground almonds",
+        "naan breads or cooked basmati rice to serve"
       ],
-      "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
-      "cookingTime": "35 minutes"
-    },
-    {
-      "id": "3",
-      "title": "Veggie Stew",
-      "ingredients": [
-        "1 Carrot",
-        "1 Leek",
-        "200g Tofu",
-        "300ml Veg stock"
-      ],
-      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "method": "1. Heat the oil in a flameproof casserole dish or large frying pan over a medium heat. Add the onion and a generous pinch of salt and fry for 8-10 mins, or until the onion has turned golden brown and sticky. Add the garlic and ginger, cooking for a further minute. \n 2.Chop the chicken into chunky 3cm pieces, add to the pan and fry for 5 mins before stirring through the spice paste and tomatoes, along with 250ml water. Bring to the boil, lower to a simmer and cook on a gentle heat uncovered for 25-30 mins or until rich and slightly reduced. Stir though the yogurt, coriander and ground almonds, season and serve with warm naan or fluffy basmati rice.",
       "cookingTime": "45 minutes"
     },
     {
-      "title": "Omlette",
+      "id": "3",
+      "title": "Easy classic lasagne",
       "ingredients": [
-        "2 eggs",
-        "salt",
-        "pepper"
+        "1 tbsp olive oil",
+        "2 rashers smoked streaky bacon",
+        "1 onion, finely chopped",
+        "1 celery stick, finely chopped",
+        "1 medium carrot, grated",
+        "2 garlic cloves, finely chopped",
+        "500g beef mince",
+        "1 tbsp tomato purée",
+        "2 x 400g cans chopped tomatoes",
+        "1 tbsp clear honey",
+        "500g pack fresh egg lasagne sheets",
+        "400ml crème fraîche",
+        "125g ball mozzarella, roughly torn",
+        "50g freshly grated parmesan",
+        "large handful basil leaves, torn (optional)"
       ],
-      "method": "beat some eggs and fry them in the pan",
-      "cookingTime": "5 minutes",
-      "id": "vuBIUKA"
+      "method": "Heat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins until starting to turn golden. Add the onion, celery and carrot, and cook over a medium heat for 5 mins, stirring occasionally, until softened.",
+      "cookingTime": "60 minutes"
+    },
+    {
+      "title": "Crusty Garlic Bread",
+      "ingredients": [
+        "60g butter, softened",
+        "2 garlic cloves, crushed",
+        "1 part-baked white baguette (about 150g)"
+      ],
+      "method": "STEP 1\nPut the butter in a bowl, add the garlic and mix well. Spoon the butter out onto a sheet of cling film and roll up to make a sausage-shaped log. Chill for 10 mins.\n\nSTEP 2\nHeat oven to 200C/180C fan/gas 6. Slice the baguette into about 12 slices but not all the way through, leaving the base intact to hold it together.\n\nSTEP 3\nRemove the cling film from the butter and thinly slice on a chopping board. Press each butter slice between the slices of bread.\n\nSTEP 4\nWrap the baguette in foil, place on a tray and bake for 5–6 mins, then peel back the foil. Cook for a further 4–5 mins to crisp up.",
+      "cookingTime": "15 minutes",
+      "id": "m0OILhp"
     }
   ]
 }
