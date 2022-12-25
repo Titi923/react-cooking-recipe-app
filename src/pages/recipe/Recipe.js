@@ -17,7 +17,7 @@ export default function Recipe() {
   useEffect(() => {
     setIsPending(true)
     
-    projectFirestore.collection('recipes').doc(id).get().then((doc) => {
+    const unsub = projectFirestore.collection('recipes').doc(id).onSnapshot((doc) => {
       if(doc.exists) {
         setIsPending(false);
         setData(doc.data())
@@ -26,12 +26,14 @@ export default function Recipe() {
         setError("That data is not valid");
       }
     })
+
+    return () => unsub()
     
-  }, [])
+  }, [id])
 
   const handleClick = () => {
     projectFirestore.collection('recipes').doc(id).update({
-      title: "Something different!"
+      title: "Veggie Chilli"
     })
   }
 

@@ -46,3 +46,12 @@
 .recipe.dark ul li {
   color: #ededee;
 }
+
+.btn {
+  padding: 20px;
+  border: none;
+  font-size: 1.25em;
+  border-radius: 10px;
+  background-color: cyan;
+  cursor: pointer;
+}
