@@ -38,6 +38,11 @@ input, textarea {
   text-align: center;
   margin: 50px auto;
 }
+
+.loading.dark {
+  color: gold;
+}
+
 .error {
   color: red;
 }
