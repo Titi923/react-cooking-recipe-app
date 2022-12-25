@@ -8,7 +8,7 @@
 .recipe-list .card {
   background: #fff;
   color: #333;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
   transition: all .3s ease;
@@ -57,4 +57,14 @@
 .recipe-list .card.dark h3,
 .recipe-list .card.dark div {
   color: #ededed;
+}
+
+.delete {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  filter: invert(23%) sepia(81%) saturate(4091%) hue-rotate(2deg) brightness(104%) contrast(102%);
+  width: 46px;
+  height: 46px;
 }
